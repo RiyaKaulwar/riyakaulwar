@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>riya kaulwar — portfolio</title>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap">
+      <a class="brand" href="/">riya kaulwar</a>
+      <nav class="nav">
+        <a href="#projects">projects</a>
+        <a href="#experience">experience</a>
+        <a href="#awards">awards</a>
+        <a href="#connect">connect</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-inner wrap">
+        <div class="hero-left">
+          <!-- instead of a photo we use a subtle abstract vector / svg placeholder -->
+          <div class="abstract-blob" aria-hidden="true">
+            <!-- svg abstract shape -->
+            <svg width="240" height="240" viewBox="0 0 240 240" xmlns="http://www.w3.org/2000/svg">
+              <g fill="none" fill-rule="evenodd">
+                <path d="M120 0c32 0 62 20 84 44 22 24 36 56 36 92S226 204 204 228s-58 12-84 12-62 0-84-12S14 204 14 156 46 44 78 20 88 0 120 0z" fill="#fff" opacity="0.02"/>
+                <path d="M120 12c28 0 54 18 74 40 20 22 32 52 32 86s-12 66-34 92c-22 26-52 42-82 42s-62-16-82-42C56 216 44 186 44 152S66 76 86 54 92 12 120 12z" fill="#000" opacity="0.02"/>
+              </g>
+            </svg>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <h1 class="title">riya kaulwar</h1>
+<br>
+
+          <div class="subtitle">
+            <span id="typed"></span><span class="cursor">|</span>
+          </div>
+
+          <p class="intro">
+            hey, im riya. i’ve dabbled in research, civic projects, and early-stage product work, and i love making thoughtful tech that helps older adults live better, more independent lives.
+<em class="italic">(If the margins feel aggressively symmetrical… they are.)</em>
+          </p>
+
+          <div class="hero-ctas">
+            <a class="btn" href="#projects">view projects</a>
+            <a class="btn ghost" href="https://medium.com/@kaulwar.riya">read the blog</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- organization logos strip + description + plus buttons -->
+    <section id="experience" class="section wrap">
+      <h3 class="section-title">institutions & collaborators</h3>
+
+      <!-- logos strip - organizations -->
+      <div class="logo-strip" id="org-strip" aria-label="organizations">
+        <div class="logo-track" role="list">
+          <!-- each item: logo (replace with img if you have one) and a plus button -->
+          <div class="logo-item" role="listitem" data-key="iisc">
+            <img src="assets/iisclogo.png" alt="iisc logo">
+            <button class="logo-more" data-key="iisc" aria-label="more about iisc">+</button>
+          </div>
+
+          <div class="logo-item" role="listitem" data-key="gov-up">
+            <img src="assets/governmentofuplogo.png" alt="iisc logo">
+            <button class="logo-more" data-key="gov-up" aria-label="more about government of up">+</button>
+          </div>
+<div class="logo-item" role="listitem" data-key="tks">
+            <img src="assets/cyberseniorslogo.png" alt="iisc logo">
+            <button class="logo-more" data-key="cyber seniors" aria-label="more about cyber seniors">+</button>
+          </div>
+          <div class="logo-item" role="listitem" data-key="birmingham">
+            <img src="assets/birminghimcitycouncillogo.png" alt="iisc logo">
+            <button class="logo-more" data-key="birmingham" aria-label="more about birmingham city council">+</button>
+          </div>
+
+          <div class="logo-item" role="listitem" data-key="nyas">
+            <img src="assets/nyas.webp" alt="iisc logo">
+            <button class="logo-more" data-key="nyas" aria-label="more about nyas">+</button>
+          </div>
+
+          <div class="logo-item" role="listitem" data-key="reco">
+            <img src="assets/recologo.webp" alt="iisc logo">
+            <button class="logo-more" data-key="reco" aria-label="more about reco">+</button>
+          </div>
+
+          <div class="logo-item" role="listitem" data-key="tks">
+            <img src="assets/tkslogo.png" alt="iisc logo">
+            <button class="logo-more" data-key="tks" aria-label="more about tks">+</button>
+          </div>
+        </div>
+      </div>
+
+      <p class="under-logos">
+        small summary: i worked across research automation, prototyping, and community outreach, building dashboards, experimental iv-analysis pipelines (on the academic end), as well as accessible prototypes that test how seniors interact with everyday devices. click the + next to any logo to view the short note about the role.
+      </p>
+    </section>
+
+    <!-- languages/tools strip (horizontal scroll) -->
+    <section class="section wrap">
+      <h3 class="section-title">why i like programming :)</h3>
+      <p class="lead">because it lets me automate the boring parts of research, build quick prototypes, and iterate designs fast, which means more time testing with the people who matter.</p>
+
+      <div class="logo-strip small" id="tech-strip" aria-label="tools and languages">
+        <div class="logo-track" role="list">
+          <div class="logo-item"><img src="assets/htmllogo.png" alt="iisc logo"></div>
+          <div class="logo-item"><img src="assets/csslogo.webp" alt="iisc logo"></div>
+          <div class="logo-item"><img src="assets/tableaulogo.png" alt="iisc logo"></div>
+          <div class="logo-item"><img src="assets/jslogo.png" alt="iisc logo"></div>
+          <div class="logo-item"><img src="assets/pythonllogo.png" alt="iisc logo"></div>
+          <div class="logo-item"><img src="assets/sqllogo.png" alt="iisc logo"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- projects / case studies -->
+    <section id="projects" class="section wrap">
+      <h3 class="section-title">projects</h3>
+
+      <div class="grid projects-grid">
+        <article class="card">
+          <h4 class="card-title">visionxcelerate glasses</h4>
+          <p class="card-sub">AI-powered smart glasses designed to enhance independence and safety for elderly dementia patients while easing the burden on caregivers. integrating fall detection, GPS geo-fencing, and real-time caregiver alerts with an AI assistant that uses voice cloning to mimic loved ones’ voices, alongside face, object, and voice recognition to help patients navigate daily life. </p>
+          <div class="card-links">
+            <a href="https://timesofindia.indiatimes.com/city/bengaluru/kids-from-bengaluru-schools-present-innovative-designs-for-healthier-city/articleshow/73361677.cms" data-external="true">times of india article</a>
+            <a href="https://www.nyas.org/ideas-insights/blog/using-artificial-intelligence-and-augmented-reality-to-assist-dementia-patients/" data-external="true">feature article</a>
+            <a href="#" data-external="true">interview</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4 class="card-title">choicex</h4>
+          <p class="card-sub">initiative aimed at reducing unemployment among youth from low socio-economic backgrounds in India. by utilizing ai technology to analyze users' interests, ChoiceX provides personalized course and job recommendations, helping simplify career decisions and enhance recruitment opportunities. (product + ml pipeline)</p>
+          <div class="card-links">
+            <a href="#">project brief</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <h4 class="card-title">shiksham</h4>
+          <p class="card-sub">As a co-founder and volunteer at Shiksham, I provided targeted mathematics instruction to girls at a community school, facilitating measurable improvements in their academic performance. Additionally, I introduced them to the STEM frameworks, guiding them through interdisciplinary projects designed to enhance critical thinking, problem-solving abilities, and confidence in STEM fields.</p>
+          <div class="card-links">
+            <a href="https://www.linkedin.com/posts/shiksham_shiksham-education-volunteer-ugcPost-7278431251349348352-5Wcm?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEIMlWkB5gYkyAf7KuONIaQ2lx4tXT6E9ds">learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+   <section id="awards" class="section wrap">
+  <h3 class="section-title">awards & recognition</h3>
+
+  <div class="awards-scroll">
+    <div class="award-card">
+      <h4 class="award-title">new york academy of sciences winner</h4>
+      <p class="award-desc">winner of the new york academy of sciences spring 2024 wearable challenge, for designing accessible assistive solutions.</p>
+    </div></br>
+
+    <div class="award-card">
+      <h4 class="award-title">ey stem app city level showcase</h4>
+      <p class="award-desc">co-presented the idea 'choicex' to a large audiance at the city level showcase conducted by ey stem app</p>
+    </div></br>
+
+    <div class="award-card">
+      <h4 class="award-title">civic impact fellowship</h4>
+      <p class="award-desc">recognized as top performer by the government of uttar pradesh for solutions supporting rural farmer supply chains.</p>
+    </div></br>
+
+    <div class="award-card">
+      <h4 class="award-title">nasa space apps challenge</h4>
+      <p class="award-desc">part of the winning local team for nasa’s global hackathon, for the best use of scientific knowledge</p>
+    </div></br>
+
+ <div class="award-card">
+      <h4 class="award-title">changemakers award</h4>
+      <p class="award-desc">ChoiceX, was awarded the Changemakers Award by the department of Life Entrepreneurship at 10X International for its outstanding contributions to social change</p>
+    </div>
+
+    <!-- add more award-card blocks here -->
+  </div>
+</section>
+
+
+    <!-- contact -->
+    <section id="connect" class="section wrap">
+      <h3 class="section-title">connect</h3>
+      <p class="lead">on linkedin if you need me! open to ideas, research, or organized chaos :p</p><br>
+      <a class="btn big" href="https://www.linkedin.com/in/riya-kaulwar-83513526b" target="_blank" rel="noopener">linkedin</a>
+    </section>
+
+    <footer class="site-footer wrap">
+      <small>© <span id="year"></span> riya kaulwar</small>
+    </footer>
+  </main>
+
+  <!-- modal for org details -->
+  <div id="modal" class="modal" aria-hidden="true">
+    <div class="modal-bg" id="modal-close"></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="modal-close" id="modal-x" aria-label="close">×</button>
+      <h4 id="modal-title" class="modal-title"></h4>
+      <p id="modal-body" class="modal-body"></p>
+      <div class="modal-actions">
+        <button id="modal-close-2" class="btn ghost">close</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
